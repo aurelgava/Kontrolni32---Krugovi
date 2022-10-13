@@ -18,7 +18,7 @@ namespace Kontrolni32___Krugovi
                 Krug, koja ima:
                     polja: 
                         - r, javno polja tipa double koje predstavlja poluprecnik kruga,
-                        - centar, javno polje tipa Tacka2D koje predstavlja centar kruga.,
+                        - centar, javno polje tipa Tacka2D koje predstavlja centar kruga,
                     metode:
                         - 2 konstrukora
                         - ToString, koja prikazuje krug u obliku oznaka(r,x,y), npr. K1(40,3,1),
