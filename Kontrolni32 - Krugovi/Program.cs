@@ -51,10 +51,12 @@ namespace Kontrolni32___Krugovi
             y = double.Parse(Console.ReadLine());
             Tacka t1 = new Tacka(x,y);
             Krug k2 = new Krug(oznaka, r, t1);
+            // Ulančavanje ova dva konstruktora ne morate da uradite, ali
+            // ako uradite ulančavanje onda ne morate da uradite neku od metoda Pripada ili SekuSe.            
             Console.WriteLine("********* Prikaz unetih krugova *************");           
             Console.WriteLine(k1);
-            Console.WriteLine(k1);
-            Console.WriteLine("************************************************");
+            Console.WriteLine(k2);
+            Console.WriteLine("*********************************************");
 
             // dovde je za 3!
             /*
